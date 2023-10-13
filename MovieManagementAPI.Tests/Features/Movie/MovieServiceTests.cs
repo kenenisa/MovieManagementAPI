@@ -19,4 +19,16 @@ namespace MovieManagementAPI.Tests.Features.Movie
             Assert.Equal(50, totalPrice); // Assuming 5 * 10 should be 50
         }
     }
+
+    internal class MovieService
+    {
+        public MovieService()
+        {
+        }
+
+        internal object CalculateTotalPrice(int v1, int v2)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
