@@ -14,12 +14,12 @@ namespace MovieManagementAPI.Application.Features.Movie.MovieRetrieval
             _movieRepository = movieRepository;
         }
 
-        public List<Movie> GetAllMovies()
+        public List<Domain.Entities.Movie> GetAllMovies()
         {
             return _movieRepository.GetAllMovies();
         }
 
-        public Movie GetMovieById(int id)
+        public Domain.Entities.Movie GetMovieById(int id)
         {
             return _movieRepository.GetMovieById(id);
         }

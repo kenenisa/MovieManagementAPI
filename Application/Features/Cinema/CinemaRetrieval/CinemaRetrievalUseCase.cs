@@ -14,12 +14,12 @@ namespace MovieManagementAPI.Application.Features.Cinema.CinemaRetrieval
             _cinemaRepository = cinemaRepository;
         }
 
-        public List<Cinema> GetAllCinemas()
+        public List<Domain.Entities.Cinema> GetAllCinemas()
         {
             return _cinemaRepository.GetAllCinemas();
         }
 
-        public Cinema GetCinemaById(int id)
+        public Domain.Entities.Cinema GetCinemaById(int id)
         {
             return _cinemaRepository.GetCinemaById(id);
         }

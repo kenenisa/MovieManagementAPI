@@ -5,6 +5,6 @@ namespace MovieManagementAPI.Application.Features.Cinema.CinemaRetrieval
 {
     public class CinemaRetrievalResponse
     {
-        public Cinema Cinema { get; set; }
+        public Domain.Entities.Cinema Cinema { get; set; }
     }
 }

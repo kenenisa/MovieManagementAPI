@@ -13,7 +13,7 @@ namespace MovieManagementAPI.Application.Features.Movie.MovieCreation
             _movieRepository = movieRepository;
         }
 
-        public void CreateMovie(Movie movie)
+        public void CreateMovie(Domain.Entities.Movie movie)
         {
             _movieRepository.AddMovie(movie);
         }

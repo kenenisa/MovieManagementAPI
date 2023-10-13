@@ -15,7 +15,7 @@ namespace MovieManagementAPI.Application.Features.Movie.MovieSearch
             _movieRepository = movieRepository;
         }
 
-        public List<Movie> SearchMovies(string searchCriteria)
+        public List<Domain.Entities.Movie> SearchMovies(string searchCriteria)
         {
             // Example: Implement search logic based on title
             return _movieRepository.GetAllMovies().Where(m => m.Title.Contains(searchCriteria)).ToList();

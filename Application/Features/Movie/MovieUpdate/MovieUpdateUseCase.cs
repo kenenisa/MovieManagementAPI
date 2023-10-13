@@ -13,7 +13,7 @@ namespace MovieManagementAPI.Application.Features.Movie.MovieUpdate
             _movieRepository = movieRepository;
         }
 
-        public void UpdateMovie(Movie movie)
+        public void UpdateMovie(Domain.Entities.Movie movie)
         {
             _movieRepository.UpdateMovie(movie);
         }

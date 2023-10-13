@@ -6,6 +6,6 @@ namespace MovieManagementAPI.Application.Features.Movie.MovieSearch
 {
     public class MovieSearchResponse
     {
-        public List<Movie> Movies { get; set; }
+        public List<Domain.Entities.Movie> Movies { get; set; }
     }
 }
